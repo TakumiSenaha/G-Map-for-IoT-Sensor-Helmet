@@ -64,7 +64,7 @@
         });
 
         var request = new XMLHttpRequest();
-        request.open('GET', `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/sheet2?key=${API_KEY}`, true);
+        request.open('GET', `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/gps_log?key=${API_KEY}`, true);
         request.responseType = 'json';
 
         request.onload = function () {
